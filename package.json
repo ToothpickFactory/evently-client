@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "app-root-dir": "^1.0.2",
     "body-parser": "^1.17.1",
     "config": "^1.25.1",
     "cors": "^2.8.1",

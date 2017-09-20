@@ -1,4 +1,4 @@
-const rp = require('request-promise');
+const rp = require('request-promise-native');
 
 function composeEvent (client_id, _event) {
 	_event.client_id = client_id;

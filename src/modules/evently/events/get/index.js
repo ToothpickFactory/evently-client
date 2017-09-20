@@ -1,4 +1,4 @@
-const rp = require('request-promise');
+const rp = require('request-promise-native');
 
 module.exports = function (config) {
 	function get (id) {
