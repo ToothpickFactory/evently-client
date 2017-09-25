@@ -2,6 +2,6 @@
 	"port": 8001,
 	"evently": {
 		"url": "http://localhost:3010",
-		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJIMUNhWFhKby0iLCJpYXQiOjE1MDU4NjI5NTd9.6XbPTdedYJVO95k5u9Ps1gbmXuATj8bPGSuxgxvB-Ac"
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJIMUNhWFhKby0iLCJpYXQiOjE1MDYzNzU4NjN9.L_pT5MEw8pVmi29osa2iH2gISv-w_53fwOzLtMMDZ7M"
 	}
 }
