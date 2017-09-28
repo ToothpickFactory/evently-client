@@ -1,7 +1,0 @@
-{
-	"port": 8001,
-	"evently": {
-		"url": "http://localhost:3010",
-		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJIMUNhWFhKby0iLCJpYXQiOjE1MDYzNzU4NjN9.L_pT5MEw8pVmi29osa2iH2gISv-w_53fwOzLtMMDZ7M"
-	}
-}
