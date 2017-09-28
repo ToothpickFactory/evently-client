@@ -1,7 +1,7 @@
 const events = require("./events");
-const about = require("./about");
+const www = require("./www");
 
 module.exports = function(app){
 	events(app);
-	about(app);
+	www(app);
 }
