@@ -1,7 +1,7 @@
 const config = require('config');
 const appRootDir = require('app-root-dir').get();
-const evently = require(appRootDir + "/src/modules/evently")(config.evently);
-const errRes = require(appRootDir + "/src/util/errRes");
+const evently = require(appRootDir + "/server/modules/evently")(config.evently);
+const errRes = require(appRootDir + "/server/util/errRes");
 
 // Routes
 module.exports = (app) => {

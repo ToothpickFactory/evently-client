@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "pm2": "pm2 start src/index.js --name evently-client"
+    "start": "nodemon server/index.js",
+    "pm2": "pm2 start server/index.js --name evently-client"
   },
   "author": "",
   "license": "ISC",
