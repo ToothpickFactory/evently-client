@@ -13,7 +13,7 @@ module.exports = function (config) {
 			body: composeEvent(config.client_id, _event),
 			json: true,
 			headers: {
-				Authorization: 'Bearer ' + config.jwt
+				Authorization: 'Bearer ' + config.token
 			}
 		}
 	

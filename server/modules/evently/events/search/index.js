@@ -7,7 +7,7 @@ module.exports = function (config) {
 			uri: `${config.url}/events`,
 			qs: query,
 			headers: {
-				Authorization: 'Bearer ' + config.jwt
+				Authorization: 'Bearer ' + config.token
 			},
 			json: true
 		}

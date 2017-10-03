@@ -6,7 +6,7 @@ module.exports = function (config) {
 			method: 'DELETE',
 			uri: `${config.url}/events/${id}/participants/${userId}`,
 			headers: {
-				Authorization: 'Bearer ' + config.jwt
+				Authorization: 'Bearer ' + config.token
 			},
 			json: true
 		}

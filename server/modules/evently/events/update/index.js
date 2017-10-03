@@ -11,7 +11,7 @@ module.exports = function (config) {
 			method: 'PUT',
 			uri: `${config.url}/events/${id}`,
 			headers: {
-				Authorization: 'Bearer ' + config.jwt
+				Authorization: 'Bearer ' + config.token
 			},
 			body: composeEvent(config.client_id, event),
 			json: true

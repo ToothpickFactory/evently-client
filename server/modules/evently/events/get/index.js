@@ -6,7 +6,7 @@ module.exports = function (config) {
 			method: 'GET',
 			uri: `${config.url}/events/${id}`,
 			headers: {
-				Authorization: 'Bearer ' + config.jwt
+				Authorization: 'Bearer ' + config.token
 			},
 			json: true
 		}
