@@ -6,7 +6,7 @@ module.exports = function (config) {
 			method: 'POST',
 			uri: `${config.url}/events/${id}/participants`,
 			headers: {
-				Authorization: config.jwt
+				Authorization: 'Bearer ' + config.jwt
 			},
 			body: participant,
 			json: true
