@@ -37,7 +37,6 @@ module.exports = {
     historyApiFallback: true,
     contentBase: '/',
     host: process.env.IP,
-    port: process.env.PORT,
-    "public": "evently-web-riotgear66.c9users.io"
+    port: process.env.PORT
   }
 }
